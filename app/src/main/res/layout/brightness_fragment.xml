@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:layout_editor_absoluteX="166dp"
+      tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Light Received"
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+      <ImageView
+          android:gravity="center_vertical"
+          android:layout_width="match_parent"
+          android:layout_height="250dp"
+          android:layout_centerHorizontal="true"
+          android:layout_gravity="center"
+          android:src="@drawable/lightbulb"
+          android:layout_centerInParent="true"
+          android:layout_centerVertical="true"
+          />
+
+      <TextView
+          android:id="@+id/textnum"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+          android:text="389"
+          android:textSize="35sp"
+          android:typeface="serif" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Lux"
+        android:textSize="25sp"
+        android:typeface="serif" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+      <ImageView
+          android:id="@+id/imagearrow"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/arrowup"/>
+      <TextView
+          android:id="@+id/txtStatue"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+          android:text="High"
+          android:textSize="25sp"
+          android:typeface="serif" />
+    </LinearLayout>
+  </LinearLayout>
+</android.support.constraint.ConstraintLayout>

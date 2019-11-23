@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.example.el3afreet.green.NewFragment.AmbientLightFragment">
+
+	<RelativeLayout
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<ProgressBar
+			android:id="@+id/progressBar"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_width="250dp"
+			android:layout_height="250dp"
+			android:layout_centerInParent="true"
+			android:layout_marginTop="40dp"
+			android:indeterminate="false"
+			android:max="100"
+			android:progress="0"
+			android:progressDrawable="@drawable/circleprogressbar"
+			android:secondaryProgress="0" />
+
+
+		<TextView
+			android:id="@+id/txtProgress"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="30sp"
+			android:text="@string/_50"
+			android:typeface="serif"
+			android:layout_alignBottom="@+id/progressBar"
+			android:layout_centerInParent="true"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="50dp"
+			android:drawableLeft="@drawable/shap"
+			android:text="Natural Light"
+			android:typeface="serif"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="100dp"
+			android:drawableLeft="@drawable/lightshap"
+			android:text="Artificial Light"
+			android:typeface="serif"/>
+
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/button"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="30dp"
+		android:background="@drawable/buttonshap"
+		android:text="Check Brightness"
+		android:textColor="@color/ecocolor"
+		android:textSize="15dp" />
+
+</LinearLayout>

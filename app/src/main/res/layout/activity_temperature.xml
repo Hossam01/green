@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.el3afreet.green.TemperatureActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/cloud"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/cloud"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 °C"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:typeface="serif"/>
+
+    <me.itangqi.waveloadingview.WaveLoadingView
+        android:id="@+id/waterwavetemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        app:wlv_borderColor="#00000000"
+        app:wlv_borderWidth="3dp"
+        app:wlv_round_rectangle="true"
+        app:wlv_shapeType="square"
+        app:wlv_titleBottomColor="@color/white"
+
+        app:wlv_titleBottomSize="24sp"
+        app:wlv_titleBottomStrokeColor="@color/darkblue_dark"
+        app:wlv_titleBottomStrokeWidth="3dp"
+        app:wlv_titleCenterColor="@color/white"
+
+
+        app:wlv_titleCenterSize="24sp"
+        app:wlv_titleCenterStrokeColor="@color/darkblue_dark"
+        app:wlv_titleCenterStrokeWidth="3dp"
+        app:wlv_titleTopColor="@color/white"
+
+        app:wlv_titleTopSize="24sp"
+        app:wlv_titleTopStrokeColor="@color/darkblue_dark"
+        app:wlv_titleTopStrokeWidth="3dp"
+        app:wlv_triangle_direction="north"
+
+
+        app:wlv_waveAmplitude="70"
+        app:wlv_waveColor="@color/darkblue_dark" />
+
+
+</LinearLayout>

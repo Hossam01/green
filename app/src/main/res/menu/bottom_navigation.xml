@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+      android:id="@+id/navigation_home"
+      android:icon="@drawable/home"
+      android:title="@string/title_home" />
+
+  <item
+      android:id="@+id/navigation_temperature"
+      android:icon="@drawable/thermometer"
+      android:title="@string/title_temperature" />
+
+  <item
+      android:id="@+id/navigation_water"
+      android:icon="@drawable/drop"
+      android:title="@string/title_waterflowrate" />
+
+  <item
+      android:id="@+id/navigation_light"
+      android:icon="@drawable/idea"
+      android:title="@string/title_ambientlight" />
+
+  <item
+      android:id="@+id/navigation_plant"
+      android:icon="@drawable/rose"
+      android:title="@string/title_planthight" />
+  <item
+      android:id="@+id/navigation_fish"
+      android:icon="@drawable/fishmnue"
+      android:title="@string/title_fish" />
+  <item
+      android:id="@+id/navigation_phlevel"
+      android:icon="@drawable/phmeter"
+      android:title="@string/title_phlevel" />
+
+
+
+</menu>

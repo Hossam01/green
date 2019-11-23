@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "664862547143",
+    "firebase_url": "https://soba-fc927.firebaseio.com",
+    "project_id": "soba-fc927",
+    "storage_bucket": "soba-fc927.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664862547143:android:0c07a72794e186c4",
+        "android_client_info": {
+          "package_name": "com.example.el3afreet.green"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664862547143-umurjpkugo6hct7so3kfi8eutk40iv9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.el3afreet.green",
+            "certificate_hash": "cd042cd1df940f22ab1c09870d6271a29b1c5382"
+          }
+        },
+        {
+          "client_id": "664862547143-i3kqps439bh1qa3ako5gec1tm6c5528f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBD8IGiXxW2pJQDaq3Tm0eZtXT43jAAIE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664862547143-i3kqps439bh1qa3ako5gec1tm6c5528f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

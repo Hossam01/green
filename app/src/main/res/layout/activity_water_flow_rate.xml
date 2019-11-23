@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.el3afreet.green.WaterFlowRateActivity"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarwater"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 L/H"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:textSize="40dp"
+            android:layout_marginTop="70dp"/>
+
+        <me.itangqi.waveloadingview.WaveLoadingView
+            android:id="@+id/waterwave"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            app:wlv_borderColor="@color/darkblue_dark"
+            app:wlv_borderWidth="3dp"
+            app:wlv_round_rectangle="true"
+            app:wlv_shapeType="square"
+            app:wlv_titleBottomColor="@color/white"
+
+            app:wlv_titleBottomSize="24sp"
+            app:wlv_titleBottomStrokeColor="@color/darkblue_dark"
+            app:wlv_titleBottomStrokeWidth="3dp"
+            app:wlv_titleCenterColor="@color/white"
+
+
+            app:wlv_titleCenterSize="24sp"
+            app:wlv_titleCenterStrokeColor="@color/darkblue_dark"
+            app:wlv_titleCenterStrokeWidth="3dp"
+            app:wlv_titleTopColor="@color/white"
+
+            app:wlv_titleTopSize="24sp"
+            app:wlv_titleTopStrokeColor="@color/darkblue_dark"
+            app:wlv_titleTopStrokeWidth="3dp"
+            app:wlv_triangle_direction="north"
+
+
+            app:wlv_waveAmplitude="70"
+            app:wlv_waveColor="@color/darkblue_dark" />
+
+    </LinearLayout>
+</RelativeLayout>

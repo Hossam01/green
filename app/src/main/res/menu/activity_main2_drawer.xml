@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_temperature"
+        android:icon="@drawable/thermometer"
+        android:title="Temperature" />
+    <item
+        android:id="@+id/nav_water"
+        android:icon="@drawable/drop"
+        android:title="Water Flow Rate" />
+    <item
+        android:id="@+id/nav_Ambient"
+        android:icon="@drawable/idea"
+        android:title="Ambient Light" />
+    <item
+        android:id="@+id/nav_Plant"
+        android:icon="@drawable/rose"
+        android:title="Plant Hight" />
+    <item
+        android:id="@+id/nav_Fish"
+        android:icon="@drawable/fishmnue"
+        android:title="Fish Feeding" />
+    <item
+        android:id="@+id/nav_PH"
+        android:icon="@drawable/phmeter"
+        android:title="PH Level" />
+  </group>
+
+  <item android:title="Communicate">
+    <menu>
+      <item
+          android:id="@+id/nav_logout"
+          android:icon="@drawable/exit"
+          android:title="Logout" />
+
+    </menu>
+  </item>
+
+</menu>
